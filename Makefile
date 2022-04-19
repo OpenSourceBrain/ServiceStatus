@@ -12,7 +12,7 @@ EXT="rst"
 
 GITHUB_PAGES_BRANCH=gh-pages
 
-DATE := $(shell date +'%Y-%m-%d %H:%M:%S')
+DATE := $(shell date +'%Y-%m-%d %H:%M')
 DATEYYMMDD := $(shell date +'%Y%m%d')
 SLUG := $(shell echo '${NAME}' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
 

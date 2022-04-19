@@ -9,7 +9,7 @@
 	{% endif %}
 	<h5>{{starttitle}}</h5>
 	<div class="mb-2">
-		{{outage.outagestart|formatdate}}
+		{{outage.outagestart|parsedate|formatdate}}
 	</div>
 	<h5>{{endtitle}}</h5>
 	<div>
