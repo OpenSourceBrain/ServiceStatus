@@ -2,8 +2,8 @@ Cluster configuration upgrades
 ##############################
 :date: 2022-04-19 12:10:34
 :slug: 20220419-cluster-configuration-upgrades
-:outagestart: 2022-04-19 12:10:34
-:outagefinish: 
+:outagestart: 2022-04-19 12:10
+:outagefinish: 2022-04-19 13:10
 :ticket: 
 
 The Google cloud cluster configuration for OSBv2 is currently being upgraded.
