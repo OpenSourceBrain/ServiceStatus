@@ -3,7 +3,7 @@ Cluster migration in progress
 :date: 2023-01-23 13:49
 :slug: 20230123-cluster-migration-in-progress
 :outagestart: 2023-01-23 13:49
-:outagefinish: 2023-01-24 00:00
+:outagefinish: 2023-01-25 00:00
 :ticket: 2
 
 The complete OSB cluster is being upgraded and migrated.
