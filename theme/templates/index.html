@@ -5,7 +5,7 @@
 	<h3>{{outage.title}}</h3>
 	<div>{{outage.content}}</div>
 	{% if outage.ticket %}
-	<div class="mb-3">For more information and updates on the progress of this outage, please see <a href="{{TICKET_TRACKER_URL}}{{outage.ticket}}">ticket #{{outage.ticket}}</a> </div>
+	<div class="mb-3">For more information and updates on the progress of this outage, please see <a href="{{TICKET_TRACKER_URL}}{{outage.ticket}}" target="_blank">ticket #{{outage.ticket}}</a> </div>
 	{% endif %}
 	<h5>{{starttitle}}</h5>
 	<div class="mb-2">
