@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>OSB service status</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="refresh" content="60">
+  <link href="feeds/ongoing.atom.xml" type="application/atom+xml" rel="alternate" title="OSB service status ongoing outages RSS Feed" />
+  <link href="feeds/planned.atom.xml" type="application/atom+xml" rel="alternate" title="OSB service status planned outages RSS Feed" />
+  <link href="feeds/resolved.atom.xml" type="application/atom+xml" rel="alternate" title="OSB service status resolved outages RSS Feed" />
+  <link href="feeds/all.atom.xml" type="application/rss+xml" rel="alternate" title="OSB service status all outages RSS Feed" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="icon"
+        type="image/png"
+        href="static/osbcircle.png">
+</head>
+
+<body id="index" class="home">
+  <nav class="navbar navbar-expand-lg navbar-light masthead justify-content-between py-2">
+    <div class="container">
+      <a href="/" class="navbar-brand"><img src="/theme/osblogofull.png" height="40px" alt="OSB Status"/></a>
+    </div>
+  </nav>
+
+
+
+	<div class="bodycontent">
+
+		<div class="bg-light pb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="d-flex align-items-center mt-5">
+						<h2 class="text-muted">Resolved Outages</h2>
+						<div class="ml-auto h4"><a href="/">view current outages &raquo;</a></div>
+					</div>
+					<div class="list-group">
+								<div class="list-group-item bg-light border-left-0 border-right-0 border-top-0">
+									<h3 class="mb-0 mt-2">April 2023</h3>
+								</div>
+
+							<div class="list-group-item border-bottom">
+								<h4><a href="https://github.com/OpenSourceBrain/ServiceStatus/issues/3">#3</a> OSBv1 certificate renewal in progress</h4>
+								<div><p>The security certificate for <a class="reference external" href="www.opensourcebrain.org">OSBv1</a> needs to be renewed.
+Some browsers may not allow users to access the website at all.</p>
+</div>
+								<div class="text-right font-weight-bold text-muted">Apr 25 2023, 11:18  - 
+										Apr 26 2023, 00:00 
+								</div>
+							</div>
+								<div class="list-group-item bg-light border-left-0 border-right-0 ">
+									<h3 class="mb-0 mt-3">January 2023</h3>
+								</div>
+
+							<div class="list-group-item border-bottom">
+								<h4><a href="https://github.com/OpenSourceBrain/ServiceStatus/issues/2">#2</a> Cluster migration in progress</h4>
+								<div><p>The complete OSB cluster is being upgraded and migrated.
+This will affect the following services:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.opensourcebrain.org">https://www.opensourcebrain.org</a></li>
+<li><a class="reference external" href="https://v2.opensourcebrain.org">https://v2.opensourcebrain.org</a> (portal and all applications)</li>
+<li><a class="reference external" href="http://nwbexplorer.opensourcebrain.org">http://nwbexplorer.opensourcebrain.org</a></li>
+</ul>
+</div>
+								<div class="text-right font-weight-bold text-muted">Jan 23 2023, 13:49  - 
+										Feb 7 2023, 12:00 
+								</div>
+							</div>
+								<div class="list-group-item bg-light border-left-0 border-right-0 ">
+									<h3 class="mb-0 mt-3">April 2022</h3>
+								</div>
+
+							<div class="list-group-item border-bottom">
+								<h4><a href="https://github.com/OpenSourceBrain/ServiceStatus/issues/">#</a> Cluster configuration upgrades</h4>
+								<div><p>The Google cloud cluster configuration for <a class="reference external" href="https://v2.opensourcebrain.org">OSBv2</a> is currently being upgraded.
+Users may experience some instabilities in the micro-services while the new deployment stabilises.</p>
+<hr class="docutils" />
+<p>This outage is now over and all <a class="reference external" href="https://v2.opensourcebrain.org">OSBv2</a> systems should be functioning normally.</p>
+</div>
+								<div class="text-right font-weight-bold text-muted">Apr 19 2022, 12:10  - 
+										Apr 19 2022, 13:10 
+								</div>
+							</div>
+								<div class="list-group-item bg-light border-left-0 border-right-0 ">
+									<h3 class="mb-0 mt-3">January 2022</h3>
+								</div>
+
+							<div class="list-group-item border-bottom">
+								<h4><a href="https://github.com/OpenSourceBrain/ServiceStatus/issues/">#</a> Test outage</h4>
+								<div><p>A test outage without a ticket.</p>
+</div>
+								<div class="text-right font-weight-bold text-muted">Jan 21 2022, 11:24  - 
+										Jan 21 2022, 11:55 
+								</div>
+							</div>
+						</div>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">&copy; 2023 Open Source Brain contributors</p>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="https://docs.opensourcebrain.org" class="nav-link px-2 text-muted">Documentation</a></li>
+        <li class="nav-item"><a href="https://docs.opensourcebrain.org/General/Contacts.html" class="nav-link px-2 text-muted">Contact</a></li>
+      </ul>
+    </footer>
+  </div>
+  <!-- Optional JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" crossorigin="anonymous"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
