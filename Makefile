@@ -91,6 +91,7 @@ ongoingoutage: newpost
 plannedoutage: newpost
 
 newpost:
+	mkdir -pv $(INPUTDIR)
 ifdef NAME
 	echo "$(NAME)" >  $(INPUTDIR)/$(DATEYYMMDD)-$(SLUG).$(EXT)
 	echo -n "$(NAME)" | sed "s/./#/g" >>  $(INPUTDIR)/$(DATEYYMMDD)-$(SLUG).$(EXT)
